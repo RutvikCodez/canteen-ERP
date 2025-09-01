@@ -1,0 +1,150 @@
+{
+  "restaurant": {
+    "name": "Bella Vista Restaurant",
+    "description": "Authentic Italian cuisine with a modern twist"
+  },
+  "categories": [
+    {
+      "id": "starters",
+      "name": "Starters",
+      "items": [
+        {
+          "id": "bruschetta",
+          "name": "Classic Bruschetta",
+          "description": "Toasted bread with fresh tomatoes, basil, and garlic",
+          "price": 8.99,
+          "image": "/generic-food-item.png",
+          "available": true
+        },
+        {
+          "id": "calamari",
+          "name": "Crispy Calamari",
+          "description": "Golden fried squid rings with marinara sauce",
+          "price": 12.99,
+          "image": "/Crispy-Calamari.jpg",
+          "available": true
+        },
+        {
+          "id": "antipasto",
+          "name": "Antipasto Platter",
+          "description": "Selection of cured meats, cheeses, and olives",
+          "price": 16.99,
+          "image": "/Antipasto-Platter.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "mains",
+      "name": "Main Courses",
+      "items": [
+        {
+          "id": "margherita",
+          "name": "Pizza Margherita",
+          "description": "Fresh mozzarella, tomato sauce, and basil",
+          "price": 18.99,
+          "image": "/Pizza-Margherita.jpg",
+          "available": true
+        },
+        {
+          "id": "carbonara",
+          "name": "Spaghetti Carbonara",
+          "description": "Creamy pasta with pancetta, eggs, and parmesan",
+          "price": 22.99,
+          "image": "/Spaghetti-Carbonara.jpg",
+          "available": true
+        },
+        {
+          "id": "risotto",
+          "name": "Mushroom Risotto",
+          "description": "Creamy arborio rice with wild mushrooms",
+          "price": 24.99,
+          "image": "/Mushroom-Risotto.jpg",
+          "available": false
+        },
+        {
+          "id": "osso-buco",
+          "name": "Osso Buco",
+          "description": "Braised veal shanks with saffron risotto",
+          "price": 32.99,
+          "image": "/Osso-Buco.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "beverages",
+      "name": "Beverages",
+      "items": [
+        {
+          "id": "wine-red",
+          "name": "House Red Wine",
+          "description": "Chianti Classico, full-bodied",
+          "price": 8.99,
+          "image": "/House-Red-Wine.jpg",
+          "available": true
+        },
+        {
+          "id": "espresso",
+          "name": "Espresso",
+          "description": "Rich Italian coffee",
+          "price": 3.99,
+          "image": "/Espresso.jpg",
+          "available": true
+        },
+        {
+          "id": "san-pellegrino",
+          "name": "San Pellegrino",
+          "description": "Sparkling mineral water",
+          "price": 4.99,
+          "image": "/San-Pellegrino.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "items": [
+        {
+          "id": "tiramisu",
+          "name": "Tiramisu",
+          "description": "Classic Italian dessert with coffee and mascarpone",
+          "price": 9.99,
+          "image": "/Tiramisu.jpg",
+          "available": true
+        },
+        {
+          "id": "panna-cotta",
+          "name": "Panna Cotta",
+          "description": "Vanilla custard with berry compote",
+          "price": 8.99,
+          "image": "/Panna-Cotta.jpg",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "combos",
+      "name": "Combo Deals",
+      "items": [
+        {
+          "id": "lunch-special",
+          "name": "Lunch Special",
+          "description": "Pasta + salad + drink",
+          "price": 19.99,
+          "image": "/Lunch.jpg",
+          "available": true
+        },
+        {
+          "id": "date-night",
+          "name": "Date Night for Two",
+          "description": "2 mains + bottle of wine + dessert to share",
+          "price": 69.99,
+          "image": "/Dinner.jpg",
+          "available": true
+        }
+      ]
+    }
+  ]
+}
