@@ -1,0 +1,44 @@
+{
+  "tables": [
+    {
+      "id": "table-1",
+      "number": 1,
+      "capacity": 2,
+      "status": "available",
+      "qrCode": "QR-TABLE-001",
+      "active": true
+    },
+    {
+      "id": "table-2",
+      "number": 2,
+      "capacity": 4,
+      "status": "occupied",
+      "qrCode": "QR-TABLE-002",
+      "active": true
+    },
+    {
+      "id": "table-3",
+      "number": 3,
+      "capacity": 4,
+      "status": "occupied",
+      "qrCode": "QR-TABLE-003",
+      "active": true
+    },
+    {
+      "id": "table-4",
+      "number": 4,
+      "capacity": 6,
+      "status": "reserved",
+      "qrCode": "QR-TABLE-004",
+      "active": true
+    },
+    {
+      "id": "table-5",
+      "number": 5,
+      "capacity": 2,
+      "status": "occupied",
+      "qrCode": "QR-TABLE-005",
+      "active": true
+    }
+  ]
+}

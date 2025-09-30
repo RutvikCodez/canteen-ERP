@@ -1,0 +1,39 @@
+{
+  "transactions": [
+    {
+      "id": "TXN001",
+      "orderId": "ORD-001",
+      "amount": 36.97,
+      "method": "card",
+      "status": "completed",
+      "timestamp": "2024-01-15T14:30:00Z",
+      "customerTable": 5,
+      "processingFee": 1.11,
+      "netAmount": 35.86,
+      "gateway": "stripe"
+    },
+    {
+      "id": "TXN002",
+      "orderId": "ORD-002",
+      "amount": 31.98,
+      "method": "upi",
+      "status": "completed",
+      "timestamp": "2024-01-15T14:45:00Z",
+      "customerTable": 3,
+      "processingFee": 0.64,
+      "netAmount": 31.34,
+      "gateway": "razorpay"
+    }
+  ],
+  "settlements": [
+    {
+      "id": "SETTLE-001",
+      "date": "2024-01-15",
+      "amount": 2847.5,
+      "fees": 85.43,
+      "netAmount": 2762.07,
+      "status": "completed",
+      "gateway": "stripe"
+    }
+  ]
+}

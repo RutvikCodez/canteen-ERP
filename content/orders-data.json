@@ -1,0 +1,52 @@
+{
+  "orders": [
+    {
+      "id": "ORD-001",
+      "tableNumber": 5,
+      "items": [
+        {
+          "id": "bruschetta",
+          "name": "Classic Bruschetta",
+          "quantity": 2,
+          "price": 8.99
+        },
+        {
+          "id": "margherita",
+          "name": "Pizza Margherita",
+          "quantity": 1,
+          "price": 18.99
+        }
+      ],
+      "total": 36.97,
+      "status": "preparing",
+      "timestamp": "2024-01-15T14:30:00Z",
+      "estimatedTime": 25,
+      "paymentStatus": "paid",
+      "paymentMethod": "card"
+    },
+    {
+      "id": "ORD-002",
+      "tableNumber": 3,
+      "items": [
+        {
+          "id": "carbonara",
+          "name": "Spaghetti Carbonara",
+          "quantity": 1,
+          "price": 22.99
+        },
+        {
+          "id": "wine-red",
+          "name": "House Red Wine",
+          "quantity": 1,
+          "price": 8.99
+        }
+      ],
+      "total": 31.98,
+      "status": "pending",
+      "timestamp": "2024-01-15T14:45:00Z",
+      "estimatedTime": 20,
+      "paymentStatus": "paid",
+      "paymentMethod": "upi"
+    }
+  ]
+}
